@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<title>Admin Jennys Tavlor</title>
+<script type="text/javascript">
+var id = 1;
+
+</script>
+</head>
+<body>
+<div class= Around> 
+<div id= Add>
+<h1><center>Admin</center></h1>
+<form action="upload.php" method="post" enctype="multipart/form-data">  
+<h3>Lägg till tavla</h3>
+    <input type="file" name="fileToUpload" id="fileToUpload"><br><br>
+  Tavel ID: <script> document.write(id); </script><br>
+  Pris: <input type="text" name="lname"><br><br>
+  
+  <input type="submit" value="Publicera">
+  <br>
+  <h3>Ta bort tavla</h3>
+  Tavel ID: <input type="text" name="fname"><br><br>
+  <input type="submit" value="Ta bort">
+</form>
+
+</div>
+
+</div>
+</body>
+</html>

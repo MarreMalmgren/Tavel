@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+body, head{
+	background: lightgray;
+} 
+div {
+    height: 1000px;
+    width: 900px;
+    background: white;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -275px;
+    margin-left: -450px;
+}
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#Add {
+	position: center;
+	padding: 20px 20px 20px 20px;
+}	
+	
